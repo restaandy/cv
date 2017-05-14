@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,18 +29,18 @@
     <title>Sility - Material Design Vcard & CV HTML Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Icons -->
-    <link href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Ionicons -->
-    <link href="fonts/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/fonts/ionicons/css/ionicons.min.css" rel="stylesheet">
     <!-- Owl Carousel -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.default.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/owl.theme.default.css" rel="stylesheet">
     <!-- Style.css -->
-    <link rel=" stylesheet" title="deep_purple" type="text/css"  data-color="#673AB7" href="color/deep_purple.css"  />
+    <link rel=" stylesheet" title="deep_purple" type="text/css"  data-color="#673AB7" href="<?php echo base_url(); ?>assets/color/deep_purple.css"  />
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -102,7 +101,7 @@
                 <!-- end .social-nav -->
             </div>
             <!-- end .slide-out-popup -->
-            <div class="image"><img src="images/head01.png" alt="alt text" class="img-responsive">
+            <div class="image"><img src="<?php echo base_url(); ?>assets/images/head01.png" alt="alt text" class="img-responsive">
             </div>
             <div class="content">
                 <h5>Benjamin Thomson</h5>
@@ -172,17 +171,17 @@
             <div class="slide-out-widget">
                 <h4>Follow On Instagram</h4>
                 <div class="instagram">
-                    <a href="#"><img src="images/instagram01.jpg" alt="alt text" class="img-responsive">
+                    <a href="#"><img src="<?php echo base_url(); ?>assets/images/instagram01.jpg" alt="alt text" class="img-responsive">
                     </a>
-                    <a href="#"><img src="images/instagram02.jpg" alt="alt text" class="img-responsive">
+                    <a href="#"><img src="<?php echo base_url(); ?>assets/images/instagram02.jpg" alt="alt text" class="img-responsive">
                     </a>
-                    <a href="#"><img src="images/instagram03.jpg" alt="alt text" class="img-responsive">
+                    <a href="#"><img src="<?php echo base_url(); ?>assets/images/instagram03.jpg" alt="alt text" class="img-responsive">
                     </a>
-                    <a href="#"><img src="images/instagram04.jpg" alt="alt text" class="img-responsive">
+                    <a href="#"><img src="<?php echo base_url(); ?>assets/images/instagram04.jpg" alt="alt text" class="img-responsive">
                     </a>
-                    <a href="#"><img src="images/instagram05.jpg" alt="alt text" class="img-responsive">
+                    <a href="#"><img src="<?php echo base_url(); ?>assets/images/instagram05.jpg" alt="alt text" class="img-responsive">
                     </a>
-                    <a href="#"><img src="images/instagram06.jpg" alt="alt text" class="img-responsive">
+                    <a href="#"><img src="<?php echo base_url(); ?>assets/images/instagram06.jpg" alt="alt text" class="img-responsive">
                     </a>
                 </div>
                 <!-- end .instagram -->
@@ -290,7 +289,7 @@
                         </div>
                         <!-- end .col-sm-7 -->
                         <div class="col-sm-5 vertical-center">
-                            <img src="images/man01.png" alt="man" class="img-responsive section-img">
+                            <img src="<?php echo base_url(); ?>assets/images/man01.png" alt="man" class="img-responsive section-img">
                         </div>
                         <!-- end .col-sm-5 -->
                     </div>
@@ -306,14 +305,14 @@
                     <h2>About Me</h2>
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="images/man02.png" alt="man" class="img-responsive section-img">
+                            <img src="<?php echo base_url(); ?>assets/images/man02.png" alt="man" class="img-responsive section-img">
                         </div>
                         <!-- end .col-sm-3 -->
                         <div class="col-sm-9">
                             <h3 class="small-margin-bottom">Benjamin Thomson</h3>
                             <h5>Web & UX Designer</h5>
                             <p>Ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque latu dantium, totam rem aperiam, eaque ipsa quae ab illo tempor dignissim at. </p>
-                            <div class="signature"><img src="images/signature.png" alt="signature" class="img-responsive">
+                            <div class="signature"><img src="<?php echo base_url(); ?>assets/images/signature.png" alt="signature" class="img-responsive">
                             </div>
                             <ul class="list-unstyled text-uppercase">
                                 <li><b>Date Of Birth:</b> 24 Jan 1989</li>
@@ -553,21 +552,21 @@
                         <div class="col-sm-8 col-sm-offset-2">
                             <div class="testimonial-slider owl-carousel">
                                 <div>
-                                    <div class="image"><img src="images/testimonial.jpg" alt="alt text">
+                                    <div class="image"><img src="<?php echo base_url(); ?>assets/images/testimonial.jpg" alt="alt text">
                                     </div>
                                     <div class="sep"></div>
                                     <p>" Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. "</p>
                                     <span class="author">swetain , CEO of Texco Company</span>
                                 </div>
                                 <div>
-                                    <div class="image"><img src="images/testimonial.jpg" alt="alt text">
+                                    <div class="image"><img src="<?php echo base_url(); ?>assets/images/testimonial.jpg" alt="alt text">
                                     </div>
                                     <div class="sep"></div>
                                     <p>" Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. "</p>
                                     <span class="author">swetain , CEO of Texco Company</span>
                                 </div>
                                 <div>
-                                    <div class="image"><img src="images/testimonial.jpg" alt="alt text">
+                                    <div class="image"><img src="<?php echo base_url(); ?>assets/images/testimonial.jpg" alt="alt text">
                                     </div>
                                     <div class="sep"></div>
                                     <p>" Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. "</p>
@@ -698,8 +697,8 @@
                         </div>
                         <div id="portfolio" class="portfolio">
                             <div class="item branding print">
-                                <img src="images/portfolio01.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio01.jpg" alt="alt text" class="img-responsive">
+                                <a href="<?php echo base_url(); ?>single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 01</span>
@@ -711,7 +710,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item motion">
-                                <img src="images/portfolio02.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio02.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -724,7 +723,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item print">
-                                <img src="images/portfolio03.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio03.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -737,7 +736,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item print branding websites">
-                                <img src="images/portfolio04.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio04.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -750,7 +749,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item print branding">
-                                <img src="images/portfolio05.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio05.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -763,7 +762,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item motion">
-                                <img src="images/portfolio06.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio06.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -776,7 +775,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item motion">
-                                <img src="images/portfolio07.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio07.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -789,7 +788,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item print">
-                                <img src="images/portfolio08.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio08.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -802,7 +801,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item motion">
-                                <img src="images/portfolio09.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio09.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -815,7 +814,7 @@
                             </div>
                             <!-- end .item -->
                             <div class="item websites">
-                                <img src="images/portfolio10.jpg" alt="alt text" class="img-responsive">
+                                <img src="<?php echo base_url(); ?>assets/images/portfolio10.jpg" alt="alt text" class="img-responsive">
                                 <a href="single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
@@ -1109,25 +1108,25 @@
     <!-- end .footer -->
 
     <!-- jQuery -->
-    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery-1.11.2.min.js"></script>
     <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
     <!-- Inview -->
-    <script src="js/jquery.inview.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery.inview.min.js"></script>
     <!-- SmoothScroll -->
-    <script src="js/smoothscroll.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/smoothscroll.js"></script>
     <!-- jQuery Knob -->
-    <script src="js/jquery.knob.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery.knob.min.js"></script>
     <!-- Owl Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/owl.carousel.min.js"></script>
     <!-- Isotope -->
-    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/isotope.pkgd.min.js"></script>
     <!-- Images Loaded -->
-    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/imagesloaded.pkgd.min.js"></script>
     <!-- google maps -->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <!-- Scripts.js -->
-    <script src="js/scripts.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/scripts.js"></script>
    
 
 </body>
