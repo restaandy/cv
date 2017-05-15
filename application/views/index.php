@@ -26,7 +26,7 @@
 
     <meta name="twitter:image:src" content="Image URL">
 
-    <title>Andy Resta | WEB Developer, IT Consultant</title>
+    <title>Template CV | WEB Developer, IT Consultant</title>
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
@@ -848,7 +848,7 @@
                         <div class="blog-post image-left">
                             <div class="inner">
                                 <a href="<?php echo base_url(); ?>assets/single-blog-post.html">
-                                    <div class="image" style="background-image: url('images/blog-post-image01.jpg');"></div>
+                                    <div class="image" style="background-image: url('<?php echo base_url(); ?>assets/images/blog-post-image01.jpg');"></div>
                                 </a>
                                 <div class="content">
                                     <span class="date">March 14, 2015</span>
@@ -881,7 +881,7 @@
                         <div class="blog-post image-top">
                             <div class="inner">
                                 <a href="single-blog-post.html">
-                                    <div class="image" style="background-image: url('images/blog-post-image02.jpg');"></div>
+                                    <div class="image" style="background-image: url('<?php echo base_url(); ?>assets/images/blog-post-image02.jpg');"></div>
                                 </a>
                                 <div class="content">
                                     <span class="date">March 13, 2015</span>
@@ -899,7 +899,7 @@
                         <div class="blog-post image-top">
                             <div class="inner">
                                 <a href="single-blog-post.html">
-                                    <div class="image" style="background-image: url('images/blog-post-image03.jpg');"></div>
+                                    <div class="image" style="background-image: url('<?php echo base_url(); ?>assets/images/blog-post-image03.jpg');"></div>
                                 </a>
                                 <div class="content">
                                     <span class="date">March 12, 2015</span>
@@ -917,7 +917,7 @@
                         <div class="blog-post image-right">
                             <div class="inner">
                                 <a href="single-blog-post.html">
-                                    <div class="image" style="background-image: url('images/blog-post-image04.jpg');"></div>
+                                    <div class="image" style="background-image: url('<?php echo base_url(); ?>assets/images/blog-post-image04.jpg');"></div>
                                 </a>
                                 <div class="content">
                                     <span class="date">March 11, 2015</span>
@@ -950,7 +950,7 @@
                         <div class="blog-post image-left">
                             <div class="inner">
                                 <a href="single-blog-post.html">
-                                    <div class="image" style="background-image: url('images/blog-post-image05.jpg');"></div>
+                                    <div class="image" style="background-image: url('<?php echo base_url(); ?>assets/images/blog-post-image05.jpg');"></div>
                                 </a>
                                 <div class="content">
                                     <span class="date">March 9, 2015</span>
