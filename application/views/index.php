@@ -26,7 +26,7 @@
 
     <meta name="twitter:image:src" content="Image URL">
 
-    <title>Sility - Material Design Vcard & CV HTML Template</title>
+    <title>Andy Resta | WEB Developer, IT Consultant</title>
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
@@ -698,7 +698,7 @@
                         <div id="portfolio" class="portfolio">
                             <div class="item branding print">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio01.jpg" alt="alt text" class="img-responsive">
-                                <a href="<?php echo base_url(); ?>single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 01</span>
@@ -711,7 +711,7 @@
                             <!-- end .item -->
                             <div class="item motion">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio02.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 02</span>
@@ -724,7 +724,7 @@
                             <!-- end .item -->
                             <div class="item print">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio03.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 03</span>
@@ -737,7 +737,7 @@
                             <!-- end .item -->
                             <div class="item print branding websites">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio04.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 04</span>
@@ -750,7 +750,7 @@
                             <!-- end .item -->
                             <div class="item print branding">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio05.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 05</span>
@@ -763,7 +763,7 @@
                             <!-- end .item -->
                             <div class="item motion">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio06.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 06</span>
@@ -776,7 +776,7 @@
                             <!-- end .item -->
                             <div class="item motion">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio07.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 07</span>
@@ -789,7 +789,7 @@
                             <!-- end .item -->
                             <div class="item print">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio08.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 08</span>
@@ -802,7 +802,7 @@
                             <!-- end .item -->
                             <div class="item motion">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio09.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 09</span>
@@ -815,7 +815,7 @@
                             <!-- end .item -->
                             <div class="item websites">
                                 <img src="<?php echo base_url(); ?>assets/images/portfolio10.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
+                                <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="overlay">
                                     <div class="background"></div>
                                     <div class="meta">
                                         <span class="title">Portfolio Item - 10</span>
@@ -829,7 +829,7 @@
                         </div>
                         <!-- end .portfolio -->
                         <div class="portfolio-load-more">
-                            <a href="single-portfolio.html" class="button solid-button white icon-right">Load More Work<i class="md-refresh"></i></a>
+                            <a href="<?php echo base_url(); ?>assets/single-portfolio.html" class="button solid-button white icon-right">Load More Work<i class="md-refresh"></i></a>
                         </div>
                         <!-- end .portfolio-load-more -->
                     </div>
@@ -847,7 +847,7 @@
                         <div class="blog-grid-sizer"></div>
                         <div class="blog-post image-left">
                             <div class="inner">
-                                <a href="single-blog-post.html">
+                                <a href="<?php echo base_url(); ?>assets/single-blog-post.html">
                                     <div class="image" style="background-image: url('images/blog-post-image01.jpg');"></div>
                                 </a>
                                 <div class="content">
